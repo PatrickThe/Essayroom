@@ -1,0 +1,39 @@
+<style>
+input.read-more-state {
+    display: none;
+}
+
+p.read-more-target {
+    font-size: 0;
+    max-height: 0;
+    opacity: 0;
+    transition: .25s ease;
+}
+
+input.read-more-state:checked ~ div.read-more-wrap p.read-more-target {
+    font-size: inherit;
+    max-height: 999em;
+    opacity: 1;
+}
+
+input.read-more-state ~ label.read-more-trigger:before {
+    content: 'Read more';
+}
+
+input.read-more-state:checked ~ label.read-more-trigger:before {
+    content: 'Read less';
+}
+
+label.read-more-trigger {
+    cursor: pointer;
+    display: inline-block;
+}
+</style>
+<input class="read-more-state" id="read-more-controller" type="checkbox">
+<div class="read-more-wrap">
+    <p>Lorem ipsum dolor sit amet...</p>
+    <p class="read-more-target">Lorem ipsum dolor sit amet...</p>
+    <p class="read-more-target">Lorem ipsum dolor sit amet...</p>
+    <p class="read-more-target">Lorem ipsum dolor sit amet...</p>
+</div>
+<label class="read-more-trigger" for="read-more-controller"></label>

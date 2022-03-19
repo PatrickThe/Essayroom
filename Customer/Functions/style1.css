@@ -1,0 +1,70 @@
+
+
+::-webkit-scrollbar-track
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #000000;	
+		border-radius: 10px;
+		width: 6px;
+}
+
+
+nav{
+    font-family: monospace;
+}
+
+li #dLabel{
+	background: black;
+    color: white;
+    border: #26487f;
+    height: 49px;
+}
+.dropdown-menu li{
+	margin: 7px;
+	border-bottom: 1px solid gold
+	min-width:530px;
+}
+.dropdown-menu li:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+.dropdown-menu{
+	min-width: 277px;
+    margin: 8px 7px 0px;
+}
+#no-number{
+	display: inline-block;
+	width: 22px;
+	background-color: white;
+	border-radius: 5px;
+	font-weight: bolder;
+}
+.dropdown-menu{
+	overflow: auto;
+	max-height: 255px;
+	max-width: 600px;
+	
+}
+
+.container{
+	padding-top: 77px;
+}
+.noti-success-message{
+	position: fixed;
+	top: 150px;
+	right: 0;
+	width: 200px;
+	display: none;
+	margin: 0 auto;
+	/*opacity: 0;*/
+}

@@ -1,0 +1,16 @@
+[24-Aug-2020 09:25:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/essayroo/public_html/Customer/include/connection.php on line 2
+[25-Aug-2020 00:10:50 asia/manila] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home2/essayroo/public_html/Customer/login.php on line 83
+[25-Aug-2020 00:10:50 asia/manila] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/essayroo/public_html/Customer/login.php on line 87
+[25-Aug-2020 00:12:26 asia/manila] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home2/essayroo/public_html/Customer/login.php on line 83
+[25-Aug-2020 00:12:26 asia/manila] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/essayroo/public_html/Customer/login.php on line 87
+[25-Aug-2020 00:14:57 asia/manila] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home2/essayroo/public_html/Customer/login.php on line 83
+[25-Aug-2020 00:14:57 asia/manila] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/essayroo/public_html/Customer/login.php on line 87
+[25-Aug-2020 00:17:47 asia/manila] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home2/essayroo/public_html/Customer/login.php on line 83
+[25-Aug-2020 00:17:47 asia/manila] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/essayroo/public_html/Customer/login.php on line 87
+[25-Aug-2020 00:18:53 asia/manila] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home2/essayroo/public_html/Customer/login.php on line 83
+[25-Aug-2020 00:18:53 asia/manila] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/essayroo/public_html/Customer/login.php on line 87
+[25-Aug-2020 00:22:00 asia/manila] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home2/essayroo/public_html/Customer/login.php on line 83
+[25-Aug-2020 00:22:00 asia/manila] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/essayroo/public_html/Customer/login.php on line 87
+[25-Aug-2020 01:14:11 asia/manila] PHP Warning:  Use of undefined constant counter - assumed 'counter' (this will throw an Error in a future version of PHP) in /home2/essayroo/public_html/Customer/login.php on line 22
+[25-Aug-2020 01:19:39 asia/manila] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home2/essayroo/public_html/Customer/login.php on line 81
+[25-Aug-2020 01:19:39 asia/manila] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home2/essayroo/public_html/Customer/login.php on line 85

@@ -1,0 +1,7 @@
+[24-Aug-2020 18:40:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/essayroo/public_html/Admin/Admin/include/connection.php on line 2
+[26-Aug-2020 05:36:16 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/essayroo/public_html/Admin/admin_login.php on line 7
+[26-Aug-2020 05:37:30 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/essayroo/public_html/Admin/admin_login.php on line 7
+[26-Aug-2020 05:38:12 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/essayroo/public_html/Admin/admin_login.php on line 7
+[26-Aug-2020 06:02:35 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/essayroo/public_html/Admin/admin_login.php on line 7
+[29-Aug-2020 09:08:15 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/essayroo/public_html/Admin/admin_login.php on line 7
+[29-Aug-2020 10:08:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home2/essayroo/public_html/Admin/admin_login.php on line 7

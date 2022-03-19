@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE>Crunchify - Refresh Div without Reloading Page</TITLE>
+ 
+
+<body >
+</style>
+
+
+ 
+</HEAD>
+<BODY>
+    <br>
+    <br>
+    <div id="show" align="center"></div>
+ 
+    <div align="center">
+        
+       <script type="text/javascript">  
+    function enableButton()
+{
+    var selectelem = document.getElementById('corpusname');
+    var btnelem = document.getElementById('seedoc');
+    btnelem.disabled = !selectelem.value;
+}                                  
+</script>
+
+<select  id='corpusname' size='1'  onchange="enableButton()"/>
+<option value=''>Select a corpus</option>
+<option value="1">1</option>
+</select>
+<input type="button" id="seedoc" disabled value="Submit">
+    </div>
+</BODY>
+</HTML>
